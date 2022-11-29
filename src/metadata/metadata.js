@@ -38,8 +38,11 @@ module.exports = {
       period: 'May 2021 - Present',
       skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Vue3.js/Quasar', 'UMA-connector', 'Git', 'Jira'],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      Frontend development and production environment support for enji.ai
+        * Migrated a web application from vue 2 to vue 3
+        * Development and support of the personal panel
+        * Increased the creation of forms on the frontend by ~3 times
+        * Developed a custom table for financial reports`
     },
     {
       company: 'MadDevs',
@@ -47,7 +50,17 @@ Prince Hamlet is visited by his father's ghost and ordered to avenge his father'
       title: 'Frontend developer',
       period: 'Sep 2021 - Aug 2022',
       skills: ['HTML', 'CSS', 'JavaScript', 'TypeScript', 'Vue2.js/NuxtJS', 'Prismic CMS', 'React/Redux', 'NestJS', 'Postgreql', 'Git', 'Jira'],
-      contents: `I with marketing team developed the website (https://maddevs.io) - in this process we used Vue2.js and Prismic CMS on the frontend and Express.js on the backend. I participated in the Radiator project, which is designed to collect metrics from Google Analytics, Glassdoor, Quora and to send data to Slack channel as a report.`
+      contents: `
+      Frontend and backend development and support for website maddevs.io:
+        * Created website using Vue2.js/Nuxt.js
+        * Created slices for build pages via Prismic CMS
+        * Wrote unit tests to the logic and components using jest engine, vue-test-library, vue-test-utils
+
+      Frontend and backend development and support for radiator app (use to get metrics from Google Analytics, Quora, Glassdoor, etc. and send to Slack channel as a report):
+        * Created UI by using ReactJS and AntDesign library
+        * Supported the backend when adding new functionality
+        * Supported migrations when changing the database
+      `
     }
   ],
   experience: [
